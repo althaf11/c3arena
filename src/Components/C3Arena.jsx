@@ -1059,7 +1059,7 @@ function StateSwitcher({ current, onChange }) {
 export default function C3Arena() {
   const [pageState, setPageState] = useState("active");
   const [registered, setRegistered] = useState(false);
-  const [darkMode] = useState(true);
+  // const [darkMode] = useState(true);
 
   const exam = EXAMS_DATA[pageState];
   const resources = exam ? RESOURCES[exam.language] || RESOURCES["Python"] : [];
